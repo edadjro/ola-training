@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "olatunde"
+    bucket = "olatunde12"
     key = "tfstate"
-    region = "us-east-1"
+    region = "us-west-2"
     dynamodb_table = "ola"
   }
 }
